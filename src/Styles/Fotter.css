@@ -1,0 +1,25 @@
+.fotter{
+    background-color: #1360ad;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    
+}
+.footer-credit {
+background: #103b7a;
+padding: 40px 40px 20px;
+
+color: #fff;
+font-family: 'Rajdhani', sans-serif;
+clear: both;
+background-color: #103b7a;
+text-align: center;
+}
+.social_media_logo{
+    color: white;
+}
+.AboutUs{
+    padding-left: 3rem;
+}
+
+

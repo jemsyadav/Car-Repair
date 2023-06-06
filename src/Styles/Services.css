@@ -1,0 +1,54 @@
+a{
+    text-decoration: none;
+}
+
+
+.Container__1{
+    margin-left: 3rem;
+}
+
+.Brand_partner{
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+.login_form{
+    padding: 4rem ;
+    padding-bottom: 2rem;
+}
+.border_1{
+    background-color: #103b7a;
+    border-color: #103b7a;
+    color: #f9c937;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    padding: 40px;
+}
+.dropdown{
+    pad: 2rem;
+}
+
+.form_group{
+    padding: 1rem;
+   margin-left: 5px;
+}
+.email{
+    margin-left: 2rem;
+}
+.dropdown{
+    margin-left: 2rem;
+}
+.Sumbit_button{
+  padding-bottom: 2rem;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 3px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid #103b7a;
+    background: transparent;
+    color: #103b7a
+    
+}

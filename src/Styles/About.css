@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.HEADER{
+      color: aliceblue;
+       background-image: url(../Images/head-title-bg.webp ) ;
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+       text-align: center;
+       padding: 5rem;
+       margin-bottom: 80px;
+       
+
+}
+
+.container_1{
+    margin-bottom: 40px;
+}
+
+.fotter{
+    background-color: #1360ad;
+    color: #fff;
+    padding: 60px 0;
+    
+}
+.footer-credit {
+background: #103b7a;
+padding: 40px 0 20px;
+color: #fff;
+font-family: 'Rajdhani', sans-serif;
+clear: both;
+background-color: #103b7a;
+}
+.social_media_logo{
+    color: white;
+}
+h2{
+    color: #103b7a;
+}
+h3{
+    font-weight: 700;
+    color: #103b7a;
+    margin: 0 0 10px;
+}
+span{
+    margin-top: -7px;
+    margin-bottom: 30px;
+    display: block;
+    font-weight: 700;
+    color: #07a0dc;
+}
+.Resume_Button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+

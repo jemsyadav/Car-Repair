@@ -1,0 +1,82 @@
+.slider_custom .slick-arrow{
+    display: none !important;
+}
+
+
+
+.main_container{
+    padding-top: 10px;
+}
+.fixed_image{
+    background-image: url(https://bengkelthemethemes5e401.zapwp.com/q:i/r:0/wp:1/w:1/u:https://bengkeltheme.themesawesome.com/wp-content/uploads/sites/10/2015/05/about-bg.jpg);
+    background-position: center center;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    padding: 80px;
+}
+.fixed_image_heading{
+    background-color: #ffffff;
+    margin-left: 2rem;
+    
+}
+.row_container{
+    background: #103b7a;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+ .Heading_Name {
+    color: #f9c937;
+}
+
+.Review{
+    background-image: url(https://bengkelthemethemes5e401.zapwp.com/q:i/r:0/wp:1/w:1/u:https://bengkeltheme.themesawesome.com/wp-content/uploads/sites/10/2015/05/testimonial-section-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px;
+}
+
+.Latest_News{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+
+.Heading_3{
+   
+    background-position: center center;
+    background-size: cover;
+    
+}
+.FIxed_Image_Postion{
+    text-align: center;
+}
+.img_section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (max-width:768px){
+    .img_section{
+margin-top: 20px;
+    }
+    .fixed_image{
+        padding: 50px;
+    }
+}
+
+@media (min-width: 992px){
+    
+  }
+
+  .About_Bengkel_Template{
+    padding-top: 1rem;
+  }
+
+  
+.img_section{
+    padding-top: 4rem;
+    
+}
