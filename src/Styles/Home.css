@@ -18,6 +18,7 @@
 .fixed_image_heading{
     background-color: #ffffff;
     margin-left: 2rem;
+    opacity: 0.9;
     
 }
 .row_container{
@@ -71,7 +72,7 @@ margin-top: 20px;
 
   .About_Bengkel_Template{
     padding-top: 1rem;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   
@@ -86,9 +87,6 @@ margin-top: 20px;
 .inner_text{
    
     position: absolute;
-    /* top: 0; */
-    /* left: 50%;
-    transform: translateX(-50%); */
     bottom: 40%;
     right: 120px;
     color: #fff;
@@ -107,15 +105,13 @@ margin-top: 20px;
     background: #07a0dc;
     position: absolute;
     left: 40px;
-    top: 30px;
+    top: 8px;
     padding-top: 78px;
-     
-    padding-left: 18px;
+    padding-left: 2px;
     bottom: 6rem;
     width: 340px;
     color: white;
-    opacity: 0.9;
-    /* z-index: 999; */
+    opacity: 0.8;
     flex-wrap: wrap;
 }
 
@@ -157,10 +153,18 @@ margin-top: 20px;
       
        justify-content: center;
        
-       
             
         }
-        
-        
     
+        }
+
+        .bg-white {
+            opacity: 0.9;
+            --bs-bg-opacity: 1;
+            background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important;
+        }
+
+        .Latest_News_Image{
+            transform: scale(1.0);
+          
         }

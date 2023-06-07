@@ -235,7 +235,7 @@ const Home = () => {
         <div className="row">
           <div className="col-md-4 col-sm-12">
          
-            <img src={latest1} alt="" width={'100%'} />
+            <img className='Latest_News_Image' src={latest1} alt="" width={'100%'} />
             <div className="row_container">
             <time class="published">May 11, 2015</time> <br />
             <a className='Heading_Name'  href="https://bengkeltheme.themesawesome.com/claritas-est-etiam-processus-dynamicus/"><h4>CLARITAS EST ETIAM PROCESSUS DYNAMICUS</h4></a>

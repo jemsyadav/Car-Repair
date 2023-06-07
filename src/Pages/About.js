@@ -34,7 +34,7 @@ const About = () => {
       <div className="col-md-5 col-sm-12 text-center">
       <img className='ml-11px' src={avtar} alt="" />
       </div>
-      <div className="col-md-4 col-sm-12  ">
+      <div className="col-md-3 col-sm-12  ">
       <h3 >Indra Kurniawan</h3>
       <span>CHIEF EXECUTIVE OFFICER</span>
       <p>Villum dolore eu feugiat nulla facilisis at vero eros et accum san et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
