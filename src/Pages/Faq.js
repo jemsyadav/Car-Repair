@@ -12,7 +12,7 @@ const Faq = () => {
   <h3 className='text-center text-red  '>COMMING SOON</h3>
   <h3 className='text-center text-black '>WORK IN PROGRESS</h3>
   <div className='vedio_text text-center'>
-  <img  src={vedio} alt="" />
+  <img  src={vedio} alt='' width={'90%'} />
   </div>
   
     </div>
