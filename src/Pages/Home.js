@@ -46,22 +46,61 @@ const Home = () => {
 
 <div className='slider_custom'>
        
+<div className="Adress_contact">
+
         
         <Slider {...settings}>
-          <div >
+        
+          <div className='Slider_1'>
           <img src={background1} alt="" width={'100%'}/>
+          <div className='inner_text'>
+          
+          <h1 className='Slider_text text-white'>Experienced. Integrity. High Quality</h1>
+          <em>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</em>
+          </div>
           
           
           </div>
-          <div>
-          <img src={background2} alt="" width={'100%'}/>
+          <div className='Slider_1'>
+          <img src={background2} alt=""  width={'100%'}  />
+          <div className='inner_text'>
+          <h2 className='Slider_text text-white'>Serve with Heart</h2>
+          <em>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</em>
           </div>
-          <div>
+          </div>
+          <div className='Slider_1'>
             <img src={background3} alt="" width={'100%'}/>
+            <div className='inner_text'>
+            <h1 className='Slider_text text-white'>High Performance of Engine</h1>
+            <em>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</em>
+            </div>
+            
           </div>
-         
+          
         
         </Slider>
+        <div className="blue_box">
+        <div className="Working_Time">
+        <h3 className='text-white'> WORKING TIME</h3>
+        <p>Monday - Friday : 08.00 - 21.00</p>
+        <p>Saturday : 08.00 - 15.00</p>
+        <p>Sunday : Closed</p>
+        </div>
+        <div className="Location">
+        <h3 className='text-white'> LOCATION</h3>
+        <p>Kaliurang St. No 104, Sinduharjo,<br/>Ngaglik, Sleman.</p>
+        <a href="#" className='Get_Direction_Button'>GET DIRECTION</a>
+
+        <div className="Contact">
+        <h3 className='text-white'>24 HOURS HOTLINE</h3>
+        <p class="tlg">986.8552.29323</p>
+        <p>MOBILE : 987 7765 5544</p>
+        </div>
+        </div>
+        </div>
+        </div>
+
+       
        
         
         <div className="container">
@@ -152,7 +191,7 @@ const Home = () => {
           <div className="fixed_image_heading">
           <h3 className='About_Bengkel_Template'>About Bengkel Template</h3>
           <hr />
-          <p>Bengkel HTML Template is a template that is suitable for you who have automotive and car repair business. With modern design, will attract users to become your customers. These templates can be accessed in a variety of devices such as tablets or smartphones.</p>
+          <p>Bengkel HTML Template is a template that is <br /> suitable for you who have automotive and car repair  <br /> business. With modern design, will attract users to <br /> become your customers. These templates can be  <br /> accessed in a variety  of devices such as tablets or smartphones.</p>
           <strong>SOME FEATURES</strong>
           <ul>                                    
           <li> 1.Gallery with Popup</li>                                  
@@ -183,7 +222,7 @@ const Home = () => {
           
           
       
-          {/* <img src={viewall} alt=""/> */}
+          
        </div>
           
          </div>
@@ -240,37 +279,22 @@ const Home = () => {
          
          
         </div>
-        
+
+        <h1 className='brand_partner_section  text-center '>BRAND PARTNER</h1>
         <div className="Brand_partner">
-      <div className="row">
-        <div className="col-md-12 col-sm-12">
-        <h3 className='text-center'>BRAND PARTNER</h3>
-        <hr />
-        <div className="row">
         
-          <div className="col-md-3 col-sm-12">
-          
-            <img className='p' src={brand1} alt="" width={'55%'} />
-          </div>
-          <br /> <br /><br /><br /><br />
-         
-          <div className="col-md-3 col-sm-12">
-            <img src={brand2} alt=""  width={'55%'} />
-          </div>
-          <br /> <br /> <br /><br /><br /><br />
-          <div className="col-md-3 col-sm-12">
-            <img src={brand3} alt=""  width={'55%'}/>
-          </div>
-          <br /> <br /> <br /><br /><br /><br />
-          <div className="col-md-3 col-sm-12">
-            <img src={brand4} alt="" width={'55%'} />
-            
-y
-          </div>
-        </div>
-        </div>
-      </div>
-    
+       <div className="Brand_1">
+        <img src={brand1} alt="" />
+       </div>
+       <div className="Brand_1">
+        <img src={brand2} alt="" />
+       </div>
+       <div className="Brand_1">
+        <img src={brand3} alt="" />
+       </div>
+       <div className="Brand_1">
+        <img src={brand4} alt="" />
+       </div>
       
     </div>
     <Footers/>

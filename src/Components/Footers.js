@@ -50,7 +50,7 @@ const Footers = () => {
         </div>
         <div className="post_format p-2">
         <a href="https://bengkeltheme.themesawesome.com/category/post-formats/" rel="category tag">Post Formats</a>
-        <h4 className='text-white'>CLARITAS EST ETIAM PROCESSUS</h4>    
+        <h6 className='text-white'>CLARITAS EST ETIAM PROCESSUS</h6>    
         </div>
         </div>
         <div className="footer_image_container d-flex ">
@@ -59,7 +59,7 @@ const Footers = () => {
         </div>
         <div className="post_format p-2">
         <a href="https://bengkeltheme.themesawesome.com/category/post-formats/" rel="category tag">Post Formats</a>
-        <h4 className='text-white'>CLARITAS EST ETIAM PROCESSUS</h4>    
+        <h6 className='text-white'>CLARITAS EST ETIAM PROCESSUS</h6>    
         </div>
         </div>
         <div className="footer_image_container d-flex ">
@@ -68,30 +68,18 @@ const Footers = () => {
         </div>
         <div className="post_format p-2">
         <a  href="https://bengkeltheme.themesawesome.com/category/post-formats/" rel="category tag">Post Formats</a>
-        <h4 className='text-white'>CLARITAS EST ETIAM PROCESSUS</h4>  
+        <h6 className='text-white'>CLARITAS EST ETIAM PROCESSUS</h6>  
           
         </div>
         
         </div>
         </div>
         </div>
-        <div className="row">
-          <div className="col-md-1">
-          <button>
-         <img src={twitter} alt="" />
-         </button>
-          </div>
-        
-          <div className="col-md-1">
-          <button>
-         <img src={facebook} alt="" />
-         </button>
-          </div>
-          <div className="col-md-1">
-          <button>
-         <img src={instagram} alt="" />
-         </button>
-          </div>
+        <div className="icon">
+        <a href=""><img src={twitter} alt="" /></a>
+      <a href="">  <img src={facebook} alt="" /></a>
+        <a href=""><img src={instagram} alt="" /></a>
+   
         </div>
       </div>
     </div>

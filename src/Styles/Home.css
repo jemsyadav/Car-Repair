@@ -13,6 +13,7 @@
     /* background-size: cover; */
     background-attachment: fixed;
     padding: 80px;
+    padding-left: 11rem;
 }
 .fixed_image_heading{
     background-color: #ffffff;
@@ -67,12 +68,10 @@ margin-top: 20px;
     }
 }
 
-@media (min-width: 992px){
-    
-  }
 
   .About_Bengkel_Template{
     padding-top: 1rem;
+    opacity: 0.8;
   }
 
   
@@ -80,3 +79,88 @@ margin-top: 20px;
     padding-top: 4rem;
     
 }
+
+.Slider_1{
+   position: relative;
+}
+.inner_text{
+   
+    position: absolute;
+    /* top: 0; */
+    /* left: 50%;
+    transform: translateX(-50%); */
+    bottom: 40%;
+    right: 120px;
+    color: #fff;
+   font-style: italic;
+   font: bold;
+  
+}
+.Slider_text{
+  size: 30px;
+}
+.Adress_contact{
+    position: relative;
+}
+.blue_box{
+    text-align: center;
+    background: #07a0dc;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    padding-top: 78px;
+     
+    padding-left: 18px;
+    bottom: 6rem;
+    width: 340px;
+    color: white;
+    opacity: 0.9;
+    /* z-index: 999; */
+    flex-wrap: wrap;
+}
+
+@media (max-width:1061px){
+    .blue_box{
+        position: inherit;
+        width: 80%;
+        padding-left: 1rem;
+    }
+    
+
+    }
+
+    .Get_Direction_Button{
+        background-color: #0ee415; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .Brand_partner{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 20px;
+  
+    
+    }
+    .brand_partner_section{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    @media (max-width:838px){
+        .Brand_partner{
+      
+       justify-content: center;
+       
+       
+            
+        }
+        
+        
+    
+        }

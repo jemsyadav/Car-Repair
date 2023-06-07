@@ -14,3 +14,14 @@ a{
    padding: 3rem;
 }
 
+/* @media (max-width:768px){
+   .icon{
+    display: flex;
+   }
+} */
+.icon{
+    display: flex;
+    gap:10px;
+}
+
+
