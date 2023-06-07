@@ -9,10 +9,10 @@ const Faq = () => {
   return (
     <div>
    
-  <h1 className='text-center text-red '>COMMING SOON</h1>
-  <h1 className='text-center text-black '>WORK IN PROGRESS</h1>
-  <div className='vedio text-center'>
-  <img  src={vedio} alt=""  width={'90%'}/>
+  <h3 className='text-center text-red  '>COMMING SOON</h3>
+  <h3 className='text-center text-black '>WORK IN PROGRESS</h3>
+  <div className='vedio_text text-center'>
+  <img  src={vedio} alt=""  width={'20%'}/>
   </div>
   
     </div>
