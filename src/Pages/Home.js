@@ -90,7 +90,7 @@ const Home = () => {
         <h3 className='text-white'> LOCATION</h3>
         <p>Kaliurang St. No 104, Sinduharjo,<br/>Ngaglik, Sleman.</p>
         <a href="#" className='Get_Direction_Button'>GET DIRECTION</a>
-
+<br />
         <div className="Contact">
         <h3 className='text-white'>24 HOURS HOTLINE</h3>
         <p class="tlg">986.8552.29323</p>
@@ -191,7 +191,7 @@ const Home = () => {
           <div className="fixed_image_heading">
           <h3 className='About_Bengkel_Template'>About Bengkel Template</h3>
           <hr />
-          <p>Bengkel HTML Template is a template that is <br /> suitable for you who have automotive and car repair  <br /> business. With modern design, will attract users to <br /> become your customers. These templates can be  <br /> accessed in a variety  of devices such as tablets or smartphones.</p>
+          <p>Bengkel HTML Template is a template that is  suitable for you who have automotive and car  repair   business. With modern design, will attract  users to  become your customers. These templates  can be   accessed in a variety  of devices such as tablets  or smartphones.</p>
           <strong>SOME FEATURES</strong>
           <ul>                                    
           <li> 1.Gallery with Popup</li>                                  
