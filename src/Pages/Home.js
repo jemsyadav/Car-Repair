@@ -86,11 +86,12 @@ const Home = () => {
         <p>Saturday : 08.00 - 15.00</p>
         <p>Sunday : Closed</p>
         </div>
+
         <div className="Location">
         <h3 className='text-white'> LOCATION</h3>
         <p>Kaliurang St. No 104, Sinduharjo,<br/>Ngaglik, Sleman.</p>
-        <a href="#" className='Get_Direction_Button'>GET DIRECTION</a>
-<br />
+        <a href="https://www.google.com/maps/dir/?api=1&parameters" className='Get_Direction_Button'>GET DIRECTION</a>
+          <br />
         <div className="Contact">
         <h3 className='text-white'>24 HOURS HOTLINE</h3>
         <p class="tlg">986.8552.29323</p>
@@ -274,7 +275,7 @@ const Home = () => {
         </h3>
         <div className="row">
           <div className="col-md-12 col-sm-12">
-          <p className='text-center text-white' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur minus magnam alias! Labore ipsum inventore sed natus assumenda aliquid veniam nihil, omnis reiciendis deleniti vel excepturi eum, suscipit voluptatibus perferendis quidem quo provident iste laboriosam maiores hic ad. Repellat, aut obcaecati! Accusantium aut iure totam rerum cupiditate amet vero sint!</p>
+          <p className='text-center text-white' >Lorem ipsum dolor sit am Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, saepe, corrupti quas doloremque ipsa dolorum repudiandae eligendi sed perspiciatis impedit Lorem ipsum dolor sit amet. odio perferendis eaque similique molestiae? consectetur adipisicing elit. Consectetur minus magnam alias! Labore ipsum inventore sed natus assumenda aliquid veniam nihil, omnis reiciendis deleniti vel excepturi eum, suscipit voluptatibus perferendis quidem quo provident iste laboriosam maiores hic ad. Repellat, aut obcaecati! Accusantium aut iure totam rerum cupiditate amet vero sint!</p>
             
           </div>
         </div>
