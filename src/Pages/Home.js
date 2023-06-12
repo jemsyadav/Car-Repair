@@ -100,6 +100,8 @@ const Home = () => {
         </div>
         </div>
 
+        <br />
+
        
        
         
@@ -191,7 +193,7 @@ const Home = () => {
           <div className="fixed_image_heading">
           <h3 className='About_Bengkel_Template'>About Bengkel Template</h3>
           <hr />
-          <p>Bengkel HTML Template is a template that is  suitable for you who have automotive and car  repair   business. With modern design, will attract  users to  become your customers. These templates  can be   accessed in a variety  of devices such as tablets  or smartphones.</p>
+          {/* <p>Bengkel HTML Template is a template that is  suitable for you who have automotive and car  repair   business. With modern design, will attract  users to  become your customers. These templates  can be   accessed in a variety  of devices such as tablets  or smartphones.</p> */}
           <strong>SOME FEATURES</strong>
           <ul>                                    
           <li> 1.Gallery with Popup</li>                                  
@@ -211,7 +213,7 @@ const Home = () => {
               
           </div>
         
-         <div className="col-md-6 col-sm-12">
+         <div className="col-md-6 col-sm-12 col-xs-12">
        <div className='img_section'>
        <img src={team1} alt="" /> 
           <img src={team2} alt="" />

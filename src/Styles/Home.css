@@ -40,7 +40,7 @@
 }
 
 .Latest_News{
-    padding-top: 3rem;
+  
     padding-bottom: 2rem;
 }
 
@@ -65,7 +65,7 @@
 margin-top: 20px;
     }
     .fixed_image{
-        padding: 50px;
+        padding: 26px;
     }
 }
 
@@ -104,7 +104,7 @@ margin-top: 20px;
     text-align: center;
     background: #07a0dc;
     position: absolute;
-    left: 40px;
+    left: 41px;
     top: 40px;
     padding-top:66px;
     padding-bottom: 40px;
@@ -131,7 +131,7 @@ margin-top: 20px;
         color: white;
         padding: 15px 32px;
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
